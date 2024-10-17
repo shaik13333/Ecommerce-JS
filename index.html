@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>One Store</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Categories</a>
+                <a href="#">Cart <span id="cart-count">(0)</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to the Best Shopping Experience</h2>
+            <p><u>All Your needs at One place</u></p>
+            <button>Shop Now</button>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="featured-products">
+            <h2>Featured Products</h2>
+            <div id="product-list" class="grid"></div>
+        </section>
+
+        <section id="categories">
+            <h2>Shop by Category</h2>
+            <div class="category-list">
+                <div class="category">Electronics</div>
+                <div class="category">Fashion</div>
+                <div class="category">Home & Kitchen</div>
+                <div class="category">Sports</div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+    
+
+
+
+
+
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <p>Total: $<span id="total-price">0.00</span></p>
+        <button id="checkout">Proceed to Checkout</button>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Stylish Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
